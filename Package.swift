@@ -19,6 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "SimplyCoreAudio",
+            publicHeadersPath: "../SimplyCoreAudioC/SimplyCoreAudio.h",
             dependencies: [
                 .target(name: "SimplyCoreAudioC"),
                 .product(name: "Atomics", package: "swift-atomics")
