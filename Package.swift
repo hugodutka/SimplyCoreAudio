@@ -23,7 +23,7 @@ let package = Package(
                 .target(name: "SimplyCoreAudioC"),
                 .product(name: "Atomics", package: "swift-atomics")
             ],
-            publicHeadersPath: "../SimplyCoreAudioC/SimplyCoreAudio.h"
+            publicHeadersPath: "Sources/SimplyCoreAudioC/SimplyCoreAudio.h"
         ),
         .target(name: "SimplyCoreAudioC",
                 publicHeadersPath: "."
